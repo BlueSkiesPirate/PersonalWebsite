@@ -1,0 +1,231 @@
+
+body{
+    background-color: rgb(21, 20, 19);
+    margin:0px;
+}
+.homePageTopnav{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo{
+    height:50px;
+    width:50px;
+    margin-right: auto;
+}
+.invisibale_div1{
+    width:70px;
+    height:20px;
+    background-color: azure;
+    margin-left:40px;
+    margin-right:40px;
+    display:none;
+}
+.user{
+    background-color: rgb(66, 63, 62);
+    height:40px;
+    width:160px;
+    border-radius: 10px;
+    margin-right:10px;
+    display:flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+    
+
+}
+
+.userName{
+    height:40px;
+    width: 80px;
+    color:white;
+    display:flex;
+    align-items: center;
+    /* background-color: aqua; */
+    margin-right: auto;
+    margin-left: 20px;
+    font-family: sans-serif, verdana;
+}
+.UserMenu{
+    background-color: red;
+    height:40px;
+    width:40px;
+    /* margin-top:15px; */
+    border-radius: 10px;
+    cursor: pointer;   
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+}
+.menuIcon_container{
+    width:20px;
+    height:21px;
+    /* background-color:blue */
+    
+}
+.MenuLine_1{
+    width: 20px;
+    height:5px;
+    background-color: black;
+
+}
+
+.MenuLine_2{
+    width: 20px;
+    height:5px;
+    background-color: black;
+    margin-top: 3px;
+}
+
+.MenuLine_3{
+    width: 20px;
+    height:5px;
+    background-color: black;
+    margin-top: 3px;
+}
+
+
+
+.homepageNav1{
+    /* background-color: red; */
+    width:100%;
+    height:40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.homepageNav2{
+    /* background-color: aquamarine; */
+    width:360px;
+    display:flex;
+    font-size: larger;
+    font-family: Verdana, sans-serif;
+}
+
+
+.otherNavOption{
+    background-color:rgb(66, 63, 62);
+    padding-left:10px;
+    padding-right: 10px;
+    margin-left:10px;
+    margin-right: 10px;
+    width:100px;
+    font-size: large;
+    border:none;
+    height: 50px;
+    opacity: 50%;
+    cursor: pointer;
+    
+}
+
+.otherNavOptionText{
+    text-decoration: none;
+    color:aquamarine;
+}
+
+
+.homePageNav{
+    padding-right: 10px;
+    padding-right: 10px;
+    margin-left:10px;
+    margin-right: 10px;
+    font-size: large;
+    background-color:rgb(66, 63, 62);
+    border:none;
+    opacity: 50%;
+    width:100px;
+    height: 50px;
+    color:aquamarine;
+    border-bottom: 5px solid ;
+    
+}
+.otherNavOption:hover,
+.otherNavOPtion:focus{
+    transform: scale(1.05);
+}
+
+#home_main{
+width:100%;
+height:700px;
+background-image:url("Images/spaceBackground.jpeg");
+margin-top: 20px;
+}
+
+#home_main_welcome{
+height:300px;
+display:flex;
+}
+
+#profileImageContainer{
+width:200px;
+height:200px;
+background-color:white;
+margin-top: 50px;
+margin-left: 50px;
+border:solid 1px white;
+border-radius: 20px;
+}
+
+#profileImage{
+    width:200px;
+    height:200px;
+    border:solid 1px white;
+    border-radius: 20px;
+    }
+
+#aboutMeSectionOuter{
+width:700px;
+height:160px;
+margin-top: 70px;
+background-color:red;
+display:flex;
+align-items: center;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+
+#aboutMeSectionInner{
+    width:680px;
+    height:120px;
+    /* margin-top: 70px; */
+    background-color:rgb(200,0,0);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#welcomeText{
+    font-size:xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:20px
+}
+
+h3{
+    font-size:medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:20px
+}
+
+
+#paragraphAbtMeContainerOuter{
+    width:700px;
+    height:300px;
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color:red;
+    display:flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#paragraphAbtMeContainerInner{
+    width:6500px;
+    height:250px;
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color:rgb(200,0,0);
+    display:flex;
+    align-items: center;
+    border-radius: 20px;
+}

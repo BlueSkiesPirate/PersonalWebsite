@@ -1,0 +1,270 @@
+body{
+    background-color: rgb(21, 20, 19);
+}
+
+.body2{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/334/962/non_2x/fluid-abstract-blue-background-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin:0px;
+    height:800px;
+    padding:10px;
+    margin-top: 0px;
+
+   
+}
+
+.topNav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.logInBtn{
+    background:rgb(39, 36, 34);
+    color:blue;
+    padding:10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family:verdana, sans-serif;
+}
+
+.logInBtn:hover{
+    color:red;
+    cursor: pointer;
+    
+}
+
+.teleport{
+    margin:auto;
+}
+.logo_container{
+    margin-top: 25px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+
+.logo{
+    height:250px;
+    width:250px;
+    margin-top: 25px;
+    transform: rotate(-15deg);
+    box-shadow: 2px 2px 50px blue;
+    
+
+}
+
+.login_container{
+    width:100%;
+    margin-top: 25px;
+    display:flex;
+    justify-content: center;
+}
+.test{
+    display: flex;
+    height: 250px;
+    width:600px;
+    background-color: rgb(39, 36, 34);
+    /* margin-left: 25%; */
+    box-shadow: 2px 2px 50px blue;
+    
+    
+}
+
+#signIn{
+    max-height: 100%;
+    width:400px;
+    /* background-color: blue; */
+    display: block;
+ 
+    
+}
+ #LogingPageWelcome{
+    height:14%;
+    font-size:40px;
+    padding-left: 1px;
+} 
+
+.signIn_FillIn{
+    height: 245px;
+    width: 100%;
+    background-color: rgb(39, 36, 34);
+    padding-top:5px;
+    
+}
+
+.signIn_content{
+/* padding-top: 5px; */
+padding-left: 10px;
+}
+
+
+#text{
+    color:rgb(201, 200, 200);
+    font-family:verdana, sans-serif;
+    font-size: 12px;
+    
+}
+
+#signIn_text{
+    color:rgb(201, 200, 200);
+    font-size: larger;
+    /* font-family: ; */
+}
+
+#text-box{
+    background-color: rgb(66, 63, 62);
+    /* border-radius: 30% 0% 0% 0%; */
+    width: 150px;
+    padding: 2px 2px 0px 2px;
+}
+
+#input{
+    /* border-radius: 0% 0% 0% 30%; */
+    border: none;
+    background-color: rgb(66, 63, 62);
+    color:white;
+}
+/* --- Working on Start----------------------------- */
+.signUpBtn{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border:none;
+    font-size: large;
+    background-color: rgb(226, 226, 226);
+}
+
+
+/* ---------Working on end ---------------------------*/
+.signUpBtn:hover{
+    background-color: rgb(167, 167, 167);
+    /* box-shadow: 4px 4px 15px greenyellow; */
+    cursor: pointer;
+}
+
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.IdkWhatToName{
+    height: 250px;;
+    width:400px;
+    background-color:rgb(39, 36, 34);
+    position:static;
+}
+#navigateToPage{
+    display:none;
+}
+
+#other_option_1{
+    margin-top: 20px;
+    margin-left: 12%;
+    height: 40%;
+    width: 75%;
+    /* background-image: url("https://www.impactbnd.com/hubfs/blog-image-uploads/best-about-us-pages.jpg"); */
+    /* background-repeat: no-repeat;
+    background-size:contain; */
+    /* background-color: rgb(66, 63, 62); */
+    /* border: solid 1px rgb(226, 226, 226); */
+    --clr: rgb(66, 63, 62);
+    --outline: 1px solid rgb(226, 226, 226);
+    border: 3px solid var(--clr);
+    background: var(--clr);
+    color: rgb(226, 226, 226);
+    outline: var(--outline);
+    transition: outline-offset 200ms ease;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#other_option_1:hover,
+#other_option_1:focus{
+    outline: var(--outline);
+    outline-offset: -6px;
+    /* background-color: rgb(226, 226, 226);
+    transform: scale(1.05);
+    position: relative;
+    z-index: 1; */
+    margin-left: 12%;
+    cursor: pointer;
+}
+
+#other_option_1:hover > #navigateToPage{
+    display: block;
+}
+
+#other_option_2{
+    margin-left: 12%;
+    margin-top: 5px;
+    margin-bottom:20px;
+    height: 40%;
+    width: 75%;
+    background-color: rgb(66, 63, 62);
+    /* border: solid 1px rgb(226, 226, 226);
+    position: relative;
+    z-index: 2; */
+    --clr: rgb(66, 63, 62);
+    --outline: 1px solid white;
+    border: 3px solid var(--clr);
+    background: var(--clr);
+    color: white;
+    outline: var(--outline);
+    transition: outline-offset 200ms ease;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#other_option_2:hover,
+#other_option_2:focus{
+    outline: var(--outline);
+    outline-offset: -6px;
+    /* background-color: rgb(226, 226, 226);
+    transform: scale(1.05);
+    position: relative;
+    z-index: 1; */
+    margin-left: 12%;
+    cursor:pointer;
+}
+
+#other_option_2:hover > #navigateToPage{
+    display: block;
+}
+
+#termsOfUsePage{
+    color:rgb(226, 226, 226);
+    /* font:bold; */
+    font-family:verdana, sans-serif
+}
+
+#aboutUsPage{
+    color:rgb(226, 226, 226);
+    /* font:bold; */
+    font-family:verdana, sans-serif
+}
+
+#other_option_2:hover > #termsOfUsePage{
+    display:none;
+}
+
+#other_option_1:hover > #aboutUsPage{
+    display:none;
+}
+
+.footer{
+    position:relative;
+    height: 200px;
+    background-color:rgb(21, 20, 19);
+    padding-top: 10px;
+   
+}
+
+.creator{
+    color:white;
+}
