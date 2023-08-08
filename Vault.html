@@ -6,37 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Krinox - home</title>
     <link rel="stylesheet" href="./vault.css">
-    <link rel="icon" href="Images/Krinox-1.png">
+    <link rel="icon" href="vaultImages/Krinox-1.png">
 
 </head>
 <body>
 
-<div class="homePageTopnav">
-    <img class="logo" src="Images/Krinox-1.png">
-    <div class="invisibale_div1"><a href="logIn.html">to sign in</a></div>
-
-    <div class="user">
-        <div class="userName">
-            Pro_Fries
+<div id="left_of_screen">
+    <div class="homePageTopnav">
+        <img class="logo" src="vaultImages/letter-k.png">
+        <div class="homepageNav2">
+            <a href="Creations.html"class="otherNavOption">creations()</a>
+            <a href="homepage.html" class="otherNavOption">home()</a>
+            <a href="" class="VaultNav">vault()</a>
         </div>
-        <div class="UserMenu">
-            <div class="menuIcon_container">
-                <div id="MenuLine" class="MenuLine_1"></div>
-                <div id="MenuLine" class="MenuLine_2"></div>
-                <div id="MenuLine" class="MenuLine_3"></div>
+    </div>
+    <!--END OF NAVIGATION BAR-->
+    <div id="vault_main">
+        <div id="input_section">
+            <div id="add_btn">
+                <h1 id="submit_snippet_text">create</h1>
+            </div>
+            <div id="input_section_text">
+                <label for="snippet_title_input">Title</label>
+                <label for="snippet_code_input">code</label>
+                <label for="snippet_explanation_input">Explanation</label>
+            </div>
+            <div id="input_section_boxes"> 
+                <div id="title_of_snippet">
+                    <input type="text" id="snippet_title_input" name="fname"><br>
+            </div>
+            <div id="snippet_code">
+                <textarea type="text" id="snippet_code_input" name="lname"></textarea>
+            </div>
+            <div id="snippet_Explanation">
+                <textarea type="text" id="snippet_explanation_input" name="lname"></textarea>
+            </div>
+
             </div>
         </div>
     </div>
-</div>
-
-<div class="homepageNav1">
-    <div class="homepageNav2">
-        <a href="Creations.html"><button class="otherNavOption otherNavOptionText"id="1">Creations</button></a>
-        <a href="index.html"><button class="otherNavOption otherNavOptionText"id="2">Home</button></a>
-        <button class="VaultNav"id="3">Vault</button>
+    <!--READ SECTION-->
+    <div id="read_section">
+        <div id="viewing_title">
+            <span id="view_title_display"></span>
+        </div>
+        <div id="viewing_explanation">
+            <span id="view_explanation_display"></span>
+        </div>
+        <div id="viewing_code">
+            <div id="viewing_code_inner_container">
+                <span id="view_code_display"></span>
+            </div>
+        </div>
+            
     </div>
 </div>
+<div id="left_right_division">
+   <div id="hint">
+    Click slides <br>to see their content!
+   </div>
+   <div class="sidebar"></div>
+   <div id="hint_img_container">
+    <img id="hint_img" src="vaultImages/clickIcon.png">
+   </div>
 </div>
+
+<!--RIGHT SIDE OF SCREEN-->
+<div id="right_of_screen">
+    <!-- <div id="vault_main_right">
+       -->
+        <div id="snippet_holder">
+        
+        </div> 
+    </div> 
+</div>
+
+
+
+
 
 
     <script src="./vault.js"></script>

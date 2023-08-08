@@ -1,24 +1,19 @@
-// const navOptions = document.querySelectorAll(".homepageNav1 .homepageNav2 button")
-// let chosen;
-// let restOfArray= [];
-// let ButtonsClicked =[];
 
-// Array.from(navOptions).forEach(choice => choice.addEventListener('click', (e) => {
-//     chosen = e.target.id
+const userProfile= document.querySelector(".userProfile")
+const menu = document.querySelector("#menu")
 
-// ButtonsClicked.push(chosen)
+let menuOnOff = false;
 
-// if(ButtonsClicked.length > 1  ){
-
-//     let chosenButton = document.getElementById(ButtonsClicked[1])
-    
-//     chosenButton.classList.add("selectedNav")
-
-//     let unchosenButton = document.getElementById(ButtonsClicked[0])
-
-// unchosenButton.classList.remove("selectedNav")
-//     ButtonsClicked.shift()
-// }
-
-// }))
-
+userProfile.addEventListener('click', ()=>{
+    // menu.classList.toggle('menuOff')
+    if (menuOnOff){
+        menu.style.display = "none"
+        console.log('off')
+        menuOnOff = false
+    }
+    else{
+        menu.style.display = "block"
+        console.log('on')
+        menuOnOff = true
+    }
+})

@@ -1,11 +1,12 @@
 body{
-    background-color: rgb(21, 20, 19);
+    background-color: #e0cba8;
+    margin:0px;
 }
 
 .body2{
-    background-image: url("https://static.vecteezy.com/system/resources/previews/001/334/962/non_2x/fluid-abstract-blue-background-free-vector.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/001/334/962/non_2x/fluid-abstract-blue-background-free-vector.jpg");
+    background-repeat: no-repeat; */
+    /* background-size:cover; */
     margin:0px;
     height:800px;
     padding:10px;
@@ -24,12 +25,11 @@ body{
 }
 
 .logInBtn{
-    background:rgb(39, 36, 34);
-    color:blue;
+    color:#a5668b;
     padding:10px;
     margin-left: 150px;
     margin-right: 150px;
-    font-family:verdana, sans-serif;
+    /* font-family:verdana, sans-serif; */
 }
 
 .logInBtn:hover{
@@ -53,7 +53,8 @@ body{
     width:250px;
     margin-top: 25px;
     transform: rotate(-15deg);
-    box-shadow: 2px 2px 50px blue;
+    border-radius: 20px;
+    box-shadow: 2px 2px 50px black;
     
 
 }
@@ -70,7 +71,7 @@ body{
     width:600px;
     background-color: rgb(39, 36, 34);
     /* margin-left: 25%; */
-    box-shadow: 2px 2px 50px blue;
+    box-shadow: 2px 2px 50px black;
     
     
 }
